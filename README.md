@@ -28,6 +28,7 @@ Matplotlib and Seaborn are utilized for data visualization, providing insightful
 
 ## Dataset
 To create our dataset, we collected NDVI and meteorological data using GEE API of our area of interest over a period of 8 years starting from 1.1.2015 to 1.1.2023 and integrated both the csv files on the basis of time series parameters. We extracted NDVI for these dates and created a collection of images. However, these images cannot be directly used to train our LSTM model and thus data pre-processing was required.
+
 <a target="blank"><img align="center" src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/aoi%20ndvi.jpeg" height="400"></a>
 
 
