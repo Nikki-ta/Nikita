@@ -57,6 +57,9 @@ To get started with this project:
   7. Download the entire project from here and then import it in VS Code.
   8. Run apps.py file which integrates our model with flask.
   9. Model is finally deployed and you'll see a webpage with the some entries.
-  10. Fill those entries and you'll see another webpage with the predicted yield.   
+  10. Fill those entries and you'll see another webpage with the predicted yield.
+
+## Methodology
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Flowchart.jpeg" height="300" width="50%"></center></a>
 
 
