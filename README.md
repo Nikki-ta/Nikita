@@ -39,6 +39,10 @@ Duplicates were removed from the data and only one reading per day was kept in t
 MLR, LSTM and RF algorithms were applied and MLR model gave promising results, demonstrating a substantial improvement in sugarcane yield prediction accuracy (95%) compared to traditional methods. Then after saving the model, deployment is done using flask creating a user interface. Below graph shows a comparison between different algorithms : 
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Comparison%20of%20algo.jpeg" height="300" width="50%"></center></a>
 
+## Deployment
+After saving the model, we deployed the MLR model using flask making a user-friendly interface, namely Sweet Sage.
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Comparison%20of%20algo.jpeg" height="300" width="50%"></center></a>
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Comparison%20of%20algo.jpeg" height="300" width="50%"></center></a>
 
 
 ## Getting Started
