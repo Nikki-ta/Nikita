@@ -32,9 +32,12 @@ To create our dataset, we collected NDVI and meteorological data using GEE API o
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/aoi%20ndvi.jpeg" height="300" width="50%"></center></a>
 
 ## Data Preprocessing
-Duplicates were removed from the data and only one reading per day was kept in the dataset. Finally, interpolation was done to ensure that readings for all days were available. After the preprocessing the data was then converted to a time series data and then supervised data which is a favorable format for  training and testing the LSTM model. 
+Duplicates were removed from the data and only one reading per day was kept in the dataset. Finally, interpolation was done to ensure that readings for all days were available. After the preprocessing the data was then converted to a time series data and then supervised data which is a favorable format for  training and testing the LSTM model. Then the data is split into training and testing data 
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/graph.png" height="300" width="50%"></center></a>
 
+## Implementing different ML models
+MLR, LSTM and RF algorithms were applied and MLR model gave promising results, demonstrating a substantial improvement in sugarcane yield prediction accuracy (95%) compared to traditional methods. Then after saving the model, deployment is done using flask creating a user interface. Below graph shows a comparison between different algorithms : 
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/graph.png" height="300" width="50%"></center></a>
 
 
 
