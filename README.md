@@ -33,6 +33,7 @@ To create our dataset, we collected NDVI and meteorological data using GEE API o
 
 ## Data Preprocessing
 Duplicates were removed from the data and only one reading per day was kept in the dataset. Finally, interpolation was done to ensure that readings for all days were available. After the preprocessing the data was then converted to a time series data and then supervised data which is a favorable format for  training and testing the LSTM model. 
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/graph.png" height="300" width="50%"></center></a>
 
 
 
