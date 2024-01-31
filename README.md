@@ -1,5 +1,5 @@
 # SWEET SAGE - SUGARCANE YIELD PREDICTION
-<a target="blank"><img align="center" src="https://github.com/Nikki-ta/Nikita/blob/main/image2.jpeg" height="200" width="900"></a>
+<a target="blank"><img align="center" src="https://github.com/Nikki-ta/Nikita/blob/main/image2.jpeg" height="500" width="900"></a>
 
 ## About
 In this project, we utilized NDVI data and weather data to forecast sugarcane yield in the sugarcane belt districts of Uttar Pradesh. Employing Multiple Linear Regression (MLR), LSTM (Long short-term memory) and Random Forest (RF) models, we computed yield predictions based on Sentinel-2 satellite imagery from Google Earth Engine and weather data from the ERA-5 Land dataset by ECMWF (2015-2023). The investigation involved analyzing expected versus actual yields, comparing model performances, and visualizing NDVI time series data annually.
