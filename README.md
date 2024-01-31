@@ -26,6 +26,9 @@ Matplotlib and Seaborn are utilized for data visualization, providing insightful
 * Random Forest (RF): RF is an ensemble learning method used for classification and regression. In the project, RF is employed for predictive modeling, offering robust and accurate results.
 * Multiple Linear Regression (MLR): MLR is a statistical method used for modeling the relationship between multiple independent variables and a dependent variable. In this project, MLR aids in understanding the correlation between various factors affecting sugarcane farming.
 
+## Dataset
+
+
 ## Getting Started
 To get started with this project:
 
