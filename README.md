@@ -2,7 +2,7 @@
 <a target="blank"><img align="center" src="https://github.com/Nikki-ta/Nikita/blob/main/image2.jpeg" height="600" width="1000"></a>
 
 ## About
-In this project, we utilized NDVI data and weather data to forecast sugarcane yield in the sugarcane belt districts of Uttar Pradesh. Employing Multiple Linear Regression (MLR), LSTM (Long short-term memory) and Random Forest (RF) models, we computed yield predictions based on Sentinel-2 satellite imagery from Google Earth Engine and weather data from the ERA-5 Land dataset by ECMWF (2015-2023). The investigation involved analyzing expected versus actual yields, comparing model performances, and visualizing NDVI time series data annually.
+In this project, we utilized NDVI data and weather data to forecast sugarcane yield in the sugarcane belt districts of Uttar Pradesh. Employing Multiple Linear Regression (MLR), Long short-term memory(LSTM) and Random Forest (RF) models, we computed yield predictions based on Sentinel-2 satellite imagery from Google Earth Engine and weather data from the ERA-5 Land dataset by ECMWF (2015-2023). The investigation involved analyzing expected versus actual yields, comparing model performances, and visualizing NDVI time series data annually.
 
 ## Problem Statement
 Traditional methods of sugarcane yield prediction are time-consuming and often lack accuracy. In the context of extensive research conducted in the field of sugarcane yield prediction, we aim to improve the precision and efficiency of this process. Our approach integrates different machine learning algorithms like MLR, LSTM and RF in combination with meteorological and NDVI data obtained from remote sensing technology. The primary objective is to develop a predictive model that can accurately estimate yields of Sugarcane fields of the respective Area of Interest. By doing so, we aim to provide sugarcane farmers with a valuable tool for optimizing resource management, enhancing crop productivity, and contributing to sustainable agriculture practices.
@@ -10,7 +10,7 @@ Traditional methods of sugarcane yield prediction are time-consuming and often l
 ## Tools and technologies used
 * Jupyter Notebook
 * Python Programming Language
-* Normalized Difference Vegetation Index (NDVI)
+* Normalized Difference Vegetation Index (NDVI) data
 * Meteorological Data
 
 ## Software required
@@ -37,8 +37,8 @@ To get started with this project:
   6. Run all the cells and save the most accurate model(MLR here) using .sav extension.
   7. Download the entire project from here and then import it in VS Code.
   8. Run apps.py file which integrates our model with flask.
-  9. Model is finally deployed and you'll see a webpage with the some entries.
-  10. Fill those entries and you'll see another webpage with the predicted yield.
+  9. Model is finally deployed and you'll see a webpage with some entries.
+  10. Fill those entries and you'll see another page with the predicted yield.
 
 ## Dataset
 To create our dataset, we collected NDVI and meteorological data using GEE API of our area of interest over a period of 8 years starting from 1.1.2015 to 1.1.2023 and integrated both the csv files on the basis of time series parameters. We extracted NDVI for these dates and created a collection of images. However, these images cannot be directly used to train our LSTM model and thus data pre-processing was required. 
@@ -67,4 +67,4 @@ After saving the model, we deployed the MLR model using flask making a user-frie
 * #### RIBHA NISHAL  - 21103098(B4)
 
 ## LICENSE
-This project is licensed under the MIT License - see the <a href="https://github.com/Nikki-ta/Sweet-Sage/blob/main/LICENSE.md" target="blank">LICENSE.MD</a> files for details.
+This project is licensed under the MIT License - see the <a href="https://github.com/Nikki-ta/Sweet-Sage/blob/main/LICENSE.md" alt="LICENSE.MD" target="blank"> files for details.
