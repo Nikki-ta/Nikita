@@ -67,4 +67,4 @@ After saving the model, we deployed the MLR model using flask making a user-frie
 * #### RIBHA NISHAL  - 21103098(B4)
 
 ## LICENSE
-This project is licensed under the MIT License - see the <a href="https://github.com/Nikki-ta/Sweet-Sage/blob/main/LICENSE.md" target="blank"> files for details.
+This project is licensed under the MIT License - see the <a href="https://github.com/Nikki-ta/Sweet-Sage/blob/main/LICENSE.md" alt="LICENSE.MD" target="blank"> files for details.
