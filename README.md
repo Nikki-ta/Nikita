@@ -6,3 +6,7 @@ In this project, we utilized NDVI data and weather data to forecast sugarcane yi
 
 ## Problem Statement
 Traditional methods of sugarcane yield prediction are time-consuming and often lack accuracy. In the context of extensive research conducted in the field of sugarcane yield prediction, we aim to improve the precision and efficiency of this process. Our approach integrates different machine learning algorithms like MLR, LSTM and RF in combination with meteorological and NDVI data obtained from remote sensing technology. The primary objective is to develop a predictive model that can accurately estimate yields of Sugarcane fields of the respective Area of Interest. By doing so, we aim to provide sugarcane farmers with a valuable tool for optimizing resource management, enhancing crop productivity, and contributing to sustainable agriculture practices.
+
+## Tools and technologies used
+* https://www.iconsdb.com/icons/download/color/f03c15/circle-16.png
+* 
