@@ -26,6 +26,20 @@ Matplotlib and Seaborn are utilized for data visualization, providing insightful
 * Random Forest (RF): RF is an ensemble learning method used for classification and regression. In the project, RF is employed for predictive modeling, offering robust and accurate results.
 * Multiple Linear Regression (MLR): MLR is a statistical method used for modeling the relationship between multiple independent variables and a dependent variable. In this project, MLR aids in understanding the correlation between various factors affecting sugarcane farming.
 
+## Getting Started
+To get started with this project:
+
+  1. Clone this repository to your local machine.
+  2. Ensure you have Jupyter Notebook and VS Code installed and running.
+  3. Install the required dependencies.
+  4. Open and run the Jupyter Notebook "Final_Minor_Project(SweetSage)_checkpoint.ipynb" to train and evaluate the model.
+  5. Authorize and authenticate by entering the required key to use the google earth engine API.
+  6. Run all the cells and save the most accurate model(MLR here) using .sav extension.
+  7. Download the entire project from here and then import it in VS Code.
+  8. Run apps.py file which integrates our model with flask.
+  9. Model is finally deployed and you'll see a webpage with the some entries.
+  10. Fill those entries and you'll see another webpage with the predicted yield.
+
 ## Dataset
 To create our dataset, we collected NDVI and meteorological data using GEE API of our area of interest over a period of 8 years starting from 1.1.2015 to 1.1.2023 and integrated both the csv files on the basis of time series parameters. We extracted NDVI for these dates and created a collection of images. However, these images cannot be directly used to train our LSTM model and thus data pre-processing was required. 
 
@@ -44,22 +58,13 @@ After saving the model, we deployed the MLR model using flask making a user-frie
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/webpage.jpeg" height="300" width="50%"></center></a>
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Predicted yield.jpeg" height="300" width="50%"></center></a>
 
-
-## Getting Started
-To get started with this project:
-
-  1. Clone this repository to your local machine.
-  2. Ensure you have Jupyter Notebook and VS Code installed and running.
-  3. Install the required dependencies.
-  4. Open and run the Jupyter Notebook "Final_Minor_Project(SweetSage)_checkpoint.ipynb" to train and evaluate the model.
-  5. Authorize and authenticate by entering the required key to use the google earth engine API.
-  6. Run all the cells and save the most accurate model(MLR here) using .sav extension.
-  7. Download the entire project from here and then import it in VS Code.
-  8. Run apps.py file which integrates our model with flask.
-  9. Model is finally deployed and you'll see a webpage with the some entries.
-  10. Fill those entries and you'll see another webpage with the predicted yield.
-
 ## Methodology
 <a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Flowchart.jpeg"></center></a>
 
+## Team Members
+* #### NIKITA BANSAL - 21103069(B3)
+* #### SAMYAK JAIN   - 21103075(B3)
+* #### RIBHA NISHAL  - 21103098(B4)
 
+## LICENSE
+This project is licensed under the MIT License - see the LICENSE.MD files for details
