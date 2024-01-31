@@ -60,6 +60,6 @@ To get started with this project:
   10. Fill those entries and you'll see another webpage with the predicted yield.
 
 ## Methodology
-<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Flowchart.jpeg" height="300" width="50%"></center></a>
+<a target="blank"><center><img src="https://github.com/Nikki-ta/Sweet-Sage/blob/main/Images/Flowchart.jpeg"></center></a>
 
 
