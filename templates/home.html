@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Sweet Sage</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+    
+</head>
+
+<body>
+  <div id="main-container">
+   <h1>
+    <div style ="text-align:center">
+      <!-- <font color='black'> -->
+        <b>SWEET SAGE</b>
+      <!-- </font> -->
+    </div>
+   </h1>
+   <br>
+
+
+   <div class="wrapper">
+     <div class="container my-5">
+      <div class="row">
+       <div class="col-md-10 col-sm-6 mx-auto">
+         <form class="" action="/predict" method="post">
+
+               <div class="form-group">
+             <input type="text" name="evaporation_from_vegetation_transpiration_sum" id="evaporation_from_vegetation_transpiration_sum" class="form-control" required>
+             <label for="evaporation_from_vegetation_transpiration_sum" class="ph-area">Enter Evaporation</label>
+              </div>
+
+           <div class="form-group" >
+              <input type="text" name="soil_temperature_level_1" id="soil_temperature_level_1" class="form-control" required>
+              <label for="soil_temperature_level_1" class="ph-area" >Enter Soil Temperature</label>
+           </div>
+          <div class="form-group">
+             <input type="text" name="surface_net_solar_radiation_sum" id="surface_net_solar_radiation_sum" class="form-control" required>
+             <label for="surface_net_solar_radiation_sum" class="ph-area">Enter Solar Radiation</label>
+           </div>
+
+
+           <div class="form-group">
+              <input type="text" name="temperature_2m" id="temperature_2m" class="form-control" required>
+              <label for="temperature_2m" class="ph-area">Enter Air Temperature</label>
+            </div>
+
+
+           <div class="form-group">
+             <input type="text" name="total_precipitation_sum" id="total_precipitation_sum" class="form-control" required>
+             <label for="total_precipitation_sum" class="ph-area">Enter total precipitation</label>
+           </div>
+
+         <div class="form-group">
+           <input type="submit" class="button-33" value="PREDICT">
+           <input type="reset" class="button-33" value="RESET">
+           <!-- <button class="" role="button">Button 33</button> -->
+         </div>
+       </form>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <style>
+  /* body {
+    background: #375c06; /* Light gray background */
+
+  /* } */ 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    width: 100%;
+    margin: auto;
+    /* background-color: #226f54; */
+    background: linear-gradient(150deg, #226f54, #b9fbc0);
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Add more styles as needed */
+
+
+  h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f1f5f1; /* Dark green text */
+  }
+
+  .wrapper {
+    background-color: #b9fbc0; /* White wrapper background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    color: #226f54; /* Dark green text for labels */
+  }
+
+  input.form-control {
+    border: 1px solid #226f54; /* Dark green border for inputs */
+    border-radius: 5px;
+  }
+
+  /* input[type="submit"],
+  input[type="reset"] {
+    background-color: #226f54; /* Dark green submit button 
+    color: #ffffff; /* White text on button 
+  } */
+
+  /* Social media icons styling */
+  .centerdiv a {
+    height: 30px;
+    width: 30px;
+    background-color: #226f54; /* Dark green background for icons */
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    line-height: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+  }
+
+  .centerdiv a i {
+    transition: all 0.3s linear;
+    color: #ffffff; /* White icon color */
+  }
+
+  .centerdiv a:hover i {
+    transform: scale(1.5);
+  }
+
+  .centerdiv a:before {
+    content: "";
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 90%;
+    left: -50%;
+    background-color: #226f54; /* Dark green background for icon before */
+    transform: rotate(60deg);
+  }
+
+  .centerdiv a:hover:before {
+    animation: socialicons 0.8s 1;
+    animation-fill-mode: forwards;
+  }
+
+/* CSS */
+.button-33 {
+  background-color: #226f54;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: #b9fbc0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(3deg);
+}
+
+  /* Additional styling for footer links */
+  footer {
+    background-color: #226f54;
+    color: #b9fbc0;
+    text-align: center; /* Align text in the center */
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  footer a:hover {
+    color: #ffffff; /* White text on hover */
+  }
+ </style>
+ 
+
+ <footer>
+  <div id = "foot">
+    <p>&copy; 2023 Sweet Sage. All rights reserved.</p>
+  </div>
+  
+ </footer>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+ integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+ integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+ integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</div>
+</body>
+
+</html>                                                 
